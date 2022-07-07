@@ -1,0 +1,77 @@
+body{margin: 0; background-color:#7858A6 ;}
+header{display: flex; justify-content: space-between; background-color: #7858A6; align-items: center; padding: 1%;}
+a{text-decoration: none; color: black;}
+.logo{display: flex;align-items: center;padding-left: 2%;font-family: 'Kaushan Script', cursive;}
+h2{font-size:400%;}
+
+nav{display: flex; width: 40vw; justify-content: space-around;align-items: center; font-size: large; padding: ;}
+.nav-link{padding: 4%;}
+.logo:hover{color: white;}
+.nav-link:hover{color: white;}
+.imgig:hover{transform: scale(1.15);}
+.imgwpp:hover{transform: scale(1.15);}
+
+
+.contenido{ display: flex;}
+section{width: 55vw; display: flex; padding: 2%; background-color: #7858A6;} 
+.fondo{display: flex; align-items: center; background-color: #E9D5CA; border-radius: 25px; padding: 2%;}
+.imgmaia{width:80%; padding: 1%; border-radius: 20px;}
+.texto{display: inline-block; width: 70%; padding-right: 5%; font-size: large; font-family: 'Quattrocento';}  
+
+.container{width: 45vw; background-color: #7858A6; padding: 2%;}
+.card{background-color: #E9D5CA; border-radius: 20px; width: 95%;}
+.card{border: none;}
+.imgtp{border-radius: 30px;}
+
+.redes{display: flex;justify-content: center; background-color:#E9D5CA; width: 100vw;}
+
+.containertp{display: flex; padding: 3%; width: 100vw;}
+.imgtp1{width: 100%;border-radius: 30px;}
+.descripservicio{font-size: medium;}
+.carousel{padding: 2%;}
+.carousel-inner{background-color: #E9D5CA; display: flex; padding: 1%; border-top-left-radius: 30px; border-top-right-radius: 30px;}
+.descripservicio{background-color: #E9D5CA; display:grid; padding: 1%;border-bottom-left-radius: 30px; border-bottom-right-radius: 30px;}
+
+h1{padding: 3%;}
+
+
+
+
+
+@media (max-width:767px){
+    header{flex-direction: column;}
+
+    .imgig{display: none;}
+
+    .imgwpp{display: none;}
+
+    .imgig{display: none;}
+
+
+}
+
+
+
+@media(max-width:484px){
+    nav{display:flex; flex-direction: column; position: relative; right: 30%; align-items:baseline;}
+    nav a{padding: 5px;}
+    .logo{padding: 20px;}
+    .containertp{flex-direction: column; flex-wrap: nowrap;}
+    
+    
+
+}
+
+@media(max-width:991px){
+    header{flex-direction: column;}
+    .contenido{flex-direction: column;}
+    section{width: 100vw;}
+    .fondo{flex-direction: column;}
+    .texto{position: relative; right: 10%;}
+    .container{flex-direction: column; width: 100vw; }
+    
+    .imgtp{width: 95%;}
+    .containertp{flex-wrap: wrap;}    
+    .carousel{width: 86vw;}
+}
+

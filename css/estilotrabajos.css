@@ -1,0 +1,66 @@
+header{display: flex; justify-content: space-between; background-color: #7858A6; align-items: center; padding: 1%;}
+a{text-decoration: none; color: black;}
+.logo{display: flex;align-items: center;padding-left: 2%;font-family: 'Kaushan Script', cursive;}
+h2{font-size:400%;}
+
+nav{display: flex; width: 40vw; justify-content: space-around;align-items: center; font-size: large; padding: ;}
+.nav-link{padding: 4%;}
+.logo:hover{color: white;}
+.nav-link:hover{color: white;}
+.imgig:hover{transform: scale(1.15);}
+.imgwpp:hover{transform: scale(1.15);}
+
+body{background-color: #7858A6;}
+#galeria .col-lg-4{
+    margin: 0;
+    padding: 2%;
+}
+#galeria img{
+    width: 100%;
+}
+
+#galeria img:hover{
+    transform: scale(1.15);
+}
+h1{font-family: 'Quattrocento';}
+p{font-family: 'Quattrocento'; font-size: large;}
+
+.redes{display: flex;justify-content: center; background-color:#E9D5CA; width: 100vw;}
+
+@media (max-width:767px){
+    header{flex-direction: column;}
+
+    .imgig{display: none;}
+
+    .imgwpp{display: none;}
+
+    .imgig{display: none;}
+
+
+}
+
+
+
+@media(max-width:484px){
+    nav{display:flex; flex-direction: column; position: relative; right: 30%; align-items:baseline;}
+    nav a{padding: 5px;}
+    .logo{padding: 20px;}
+    .containertp{flex-direction: column; flex-wrap: nowrap;}
+    
+    
+
+}
+
+@media(max-width:991px){
+    header{flex-direction: column;}
+    .contenido{flex-direction: column;}
+    section{width: 100vw;}
+    .fondo{flex-direction: column;}
+    .texto{position: relative; right: 10%;}
+    .container{flex-direction: column; width: 100vw; }
+    
+    .imgtp{width: 95%;}
+    .containertp{flex-wrap: wrap;}    
+    .carousel{width: 86vw;}
+}
+
